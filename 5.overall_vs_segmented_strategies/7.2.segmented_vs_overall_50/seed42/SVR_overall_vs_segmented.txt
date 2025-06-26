@@ -1,0 +1,3 @@
+"Algorithm"	"Age_Group"	"Group_A"	"Group_B"	"Mean_Diff"	"CI_Lower"	"CI_Upper"	"t"	"df"	"p_value"	"Sig"
+"SVR"	"Old"	"Overall"	"Segmented"	1.72957539094492	1.51042682896064	1.94872395292921	15.5440787153042	249	1.52988732347362e-38	"***"
+"SVR"	"Young"	"Overall"	"Segmented"	0.434733489747231	0.33035557550116	0.539111403993302	8.20311118343073	249	1.25686137744162e-14	"***"

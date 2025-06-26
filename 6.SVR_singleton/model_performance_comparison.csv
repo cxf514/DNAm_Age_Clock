@@ -1,0 +1,13 @@
+"Model","Group","Dataset","MAE","RMSE","R2"
+"Overall","All","Test",4.72,6.17,0.916
+"Overall","All","Train",3.66,7.04,0.889
+"Overall","Old","Test",5.51,6.22,0.779
+"Overall","Old","Train",4.49,8.58,0.374
+"Overall","Young","Test",4.25,6.14,0.865
+"Overall","Young","Train",3.1,5.75,0.851
+"Segmented","All","Test",3.28,4.65,0.955
+"Segmented","All","Train",2.64,5.4,0.934
+"Segmented","Old","Test",4.36,5.15,0.755
+"Segmented","Old","Train",3.42,7.54,0.461
+"Segmented","Young","Test",2.64,4.33,0.897
+"Segmented","Young","Train",2.11,3.21,0.934
