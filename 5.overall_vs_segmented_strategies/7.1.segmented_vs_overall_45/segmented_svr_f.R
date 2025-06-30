@@ -28,7 +28,7 @@ library(broom)       # tidy output
 # =========================================================================
 # 2. Data Preparation -----------------------------------------------------
 # =========================================================================
-load("../Rdata/cpg_info.Rdata")
+load("../../0.raw_data/cpg_info.RData")
 
 # Prepare methylation data matrix (preserving original variable names)
 colnames(combined_cpg) <- paste0("CpG_", 1:17)
@@ -43,7 +43,7 @@ age_groups <- cut(age_info,
 # Experimental parameters
 n_outer_folds <- 5      # Number of CV folds
 n_repeats <- 50         # Repetitions per fold
-age_threshold <- 55     # Threshold for age grouping
+age_threshold <- 45     # Threshold for age grouping
 exclude_samples <- c(91, 93)  # Samples to exclude
 # 3. Generate Reproducible CV Folds ---------------------------------------
 set.seed(seed_1)  # Reset seed for consistent fold generation
